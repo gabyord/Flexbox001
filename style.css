@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+p{
+    font-size: 0,7rem;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+.cards{
+    padding: 1rem;
+    
+}
+
+.card{
+    margin: 2rem 0;
+    background-color: rgb(32, 187, 179);
+    padding: 1rem;
+    max-width: 20rem;
+    box-shadow: 0 5px 10px rgba(0 0 0 /.1);
+    padding-bottom: 4rem;
+}
+.card h2{
+    margin-bottom: 3rem;
+}
+@media ( min-width:50rem ){
+    .p{
+        font-size: 1rem;
+    }
+    .cards{
+        display: flex;
+        gap:1rem;
+    }
+    .card{
+        flex-basis: 100%;
+        max-width: 15rem;
+        
+    }
+}
+    
